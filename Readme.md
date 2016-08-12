@@ -1,6 +1,6 @@
 Introduction:
 
-This package provides a Matlab (tested on Matlab R2016a) implementation of Multi-Label Mixtures-of-Experts (ML-ME) [Hong, Batal, and Hauskrecht, 2015] that builds ensemble mixtures of structured prediction models for multi-label classification.
+This package contains a Matlab implementation (tested on Matlab R2016a) of Multi-Label Mixtures-of-Experts (ML-ME) [Hong, Batal, and Hauskrecht, 2015] that builds ensemble mixtures of structured prediction models for multi-label classification.
 
 To train a ML-ME model, use MLME/train_MLME.m. To use a trained model for prediction, use MLME/MAP_prediction_MCC.m or MLME/MAP_prediction_MCTBN.m depending on your modeling option ([Read et al., 2009; Batal, Hong, and Hauskrecht, 2013]).
 
